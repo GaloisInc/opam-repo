@@ -1,0 +1,13 @@
+opam-version: "1"
+maintainer: "jamesjb@galois.com"
+build: [
+  [make "build"]
+  [make "reinstall"]
+]
+
+remove: [
+  [make "uninstall"]
+]
+
+depends: []
+
